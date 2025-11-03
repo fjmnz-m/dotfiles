@@ -1,0 +1,94 @@
+set notification-error-bg "#e64553"
+set notification-error-fg "#eff1f5"
+set notification-warning-bg "#df8e1d"
+set notification-warning-fg "#eff1f5"
+set notification-bg "#1e66f5"
+set notification-fg "#eff1f5"
+
+set completion-bg "#ccd0da"
+set completion-fg "#4c4f69"
+set completion-group-bg "#bcc0cc"
+set completion-group-fg "#5c5f77"
+set completion-highlight-bg "#1e66f5"
+set completion-highlight-fg "#eff1f5"
+
+set index-bg "#ccd0da"
+set index-fg "#4c4f69"
+set index-active-bg "#1e66f5"
+set index-active-fg "#eff1f5"
+
+set inputbar-fg "#eff1f5"
+set inputbar-bg "#ccd0da"
+set statusbar-fg "#eff1f5"
+set statusbar-bg "#ccd0da"
+
+set highlight-color "#df8e1d"
+set highlight-active-color "#40a02b"
+
+set default-bg "#eff1f5"
+set default-fg "#4c4f69"
+
+set render-loading true
+set render-loading-bg "#eff1f5"
+set render-loading-fg "#4c4f69"
+
+set recolor-lightcolor "#eff1f5"
+set recolor-darkcolor "#4c4f69"
+
+set font                        "Iosevka Nerd Font 11"
+set adjust-open                 "width"
+set pages-per-row               1
+set scroll-page-aware           "true"
+set scroll-step                 100
+set zoom-min                    10
+set guioptions                  "sv"
+set recolor                     "false"
+set recolor-keephue             "false"
+set selection-clipboard         "clipboard"
+set window-title-basename       "true"
+set window-title-page           "true"
+set incremental-search          "true"
+
+map <C-i> recolor
+map i recolor
+map p print
+map r rotate
+map R reload
+map K zoom in
+map J zoom out
+map <C-=> zoom in
+map <C--> zoom out
+map h navigate previous
+map l navigate next
+map <Left> navigate previous
+map <Right> navigate next
+map j scroll down
+map k scroll up
+map <Down> scroll down
+map <Up> scroll up
+map <C-d> scroll half-down
+map <C-u> scroll half-up
+map <C-f> scroll full-down
+map <C-b> scroll full-up
+map gg goto top
+map G goto bottom
+map <PageUp> navigate previous
+map <PageDown> navigate next
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+map <Tab> toggle_index
+map [index] <Tab> toggle_index
+map [index] j navigate_index down
+map [index] k navigate_index up
+map [index] h navigate_index collapse
+map [index] l navigate_index expand
+map [index] <Down> navigate_index down
+map [index] <Up> navigate_index up
+map [index] <Left> navigate_index collapse
+map [index] <Right> navigate_index expand
+map n search forward
+map N search backward
+map a adjust_window best-fit
+map s adjust_window width
+map d adjust_window page
+map q quit

@@ -1,0 +1,127 @@
+[window]
+opacity = 1.00
+padding.x = 12
+padding.y = 12
+decorations = "Full"
+decorations_theme_variant = "Dark"
+dynamic_title = true
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "IosevkaTerm Nerd Font Mono"
+style = "Medium"
+
+[font.bold]
+family = "IosevkaTerm Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "IosevkaTerm Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "IosevkaTerm Nerd Font Mono"
+style = "Bold Italic"
+
+[cursor]
+style = { shape = "Block" }
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[colors.primary]
+background = "#303446"
+foreground = "#c6d0f5"
+dim_foreground = "#a5adce"
+bright_foreground = "#c6d0f5"
+
+[colors.cursor]
+text = "#303446"
+cursor = "#f2d5cf"
+
+[colors.vi_mode_cursor]
+text = "#303446"
+cursor = "#babbf1"
+
+[colors.search.matches]
+foreground = "#303446"
+background = "#a5adce"
+
+[colors.search.focused_match]
+foreground = "#303446"
+background = "#a6d189"
+
+[colors.footer_bar]
+foreground = "#303446"
+background = "#a5adce"
+
+[colors.hints.start]
+foreground = "#303446"
+background = "#e5c890"
+
+[colors.hints.end]
+foreground = "#303446"
+background = "#a5adce"
+
+[colors.selection]
+text = "#303446"
+background = "#f2d5cf"
+
+[colors.normal]
+black = "#51576d"
+red = "#e78284"
+green = "#a6d189"
+yellow = "#e5c890"
+blue = "#8caaee"
+magenta = "#f4b8e4"
+cyan = "#81c8be"
+white = "#b5bfe2"
+
+[colors.bright]
+black = "#626880"
+red = "#e78284"
+green = "#a6d189"
+yellow = "#e5c890"
+blue = "#8caaee"
+magenta = "#f4b8e4"
+cyan = "#81c8be"
+white = "#a5adce"
+
+[colors.dim]
+black = "#51576d"
+red = "#e78284"
+green = "#a6d189"
+yellow = "#e5c890"
+blue = "#8caaee"
+magenta = "#f4b8e4"
+cyan = "#81c8be"
+white = "#b5bfe2"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#ef9f76"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#f2d5cf"
+
+[bell]
+animation = "EaseOutExpo"
+duration = 0
+
+[keyboard]
+bindings = [
+  { key = "V", mods = "Control|Shift", action = "Paste" },
+  { key = "C", mods = "Control|Shift", action = "Copy" },
+  { key = "Insert", mods = "Shift", action = "PasteSelection" },
+  { key = "Key0", mods = "Control", action = "ResetFontSize" },
+  { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
+  { key = "Plus", mods = "Control", action = "IncreaseFontSize" },
+  { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+  { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" },
+  { key = "F11", action = "ToggleFullscreen" },
+]
+

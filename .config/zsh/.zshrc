@@ -54,11 +54,6 @@ alias preview='fzf --preview "bat --color=always --style=numbers --line-range=:5
 alias rg='rg --smart-case --hidden'
 alias rgf='rg-fzf'
 
-alias zj='zellij'
-alias zja='zellij attach -c'
-alias zjl='zellij list-sessions'
-alias zjk='zellij delete-session'
-
 setopt AUTO_CD
 setopt AUTO_PUSHD
 setopt PUSHD_IGNORE_DUPS
@@ -80,7 +75,7 @@ export VISUAL='vim'
 export PAGER='less'
 export LESS='-R'
 
-export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
